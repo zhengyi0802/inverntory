@@ -5,13 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Inventory extends Model
+class Journal extends Model
 {
     use HasFactory;
 
     protected $connection='inventory';
 
     protected $fillable = [
+        'storage_id',
         'record_date',
         'model_id',
         'type',

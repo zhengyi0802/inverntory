@@ -5,7 +5,8 @@ use App\Http\Controllers\CatagoryController;
 use App\Http\Controllers\VendorController;
 use App\Http\Controllers\ProductModelController;
 use App\Http\Controllers\MaterialController;
-use App\Http\Controllers\InventoryController;
+use App\Http\Controllers\StorageController;
+use App\Http\Controllers\JournalController;
 //use App\Http\Controllers'UserController;
 
 /*
@@ -35,4 +36,7 @@ Route::resource('/productModels', ProductModelController::class);
 
 Route::resource('/materials', MaterialController::class);
 
-Route::resource('/inventories', InventoryController::class);
+Route::resource('/storages', StorageController::class);
+
+Route::resource('/journals', JournalController::class);
+

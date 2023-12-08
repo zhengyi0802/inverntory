@@ -298,6 +298,11 @@ return [
 
         // Sidebar items:
         [
+            'text' => 'storages',
+            'url'  => 'storages',
+            'can'  => '',
+        ],
+        [
             'text' => 'productModels',
             'url'  => 'productModels',
             'can'  => '',

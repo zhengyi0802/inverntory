@@ -21,4 +21,5 @@ return [
     'productModels'                 => '產品流水帳資料',
     'materials'                     => '材料/半成品資料',
     'inventories'                   => '產品進銷存貨表',
+    'storages'                      => '倉儲資訊資料表',
 ];
